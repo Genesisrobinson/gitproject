@@ -1,0 +1,8 @@
+Selenium Grid
+
+Works fine has to run within project lib folder (should have selenium-server-standalone-3.jar and chrome deriver file should be in lib
+
+java -jar selenium-server-standalone-3.6.0.jar -role hub (start the Hub) - Works
+java  -jar selenium-server-standalone-3.6.0.jar -role webdriver -hub http://192.168.1.5:4444/grid/register (start the node) - Works
+ 
+
