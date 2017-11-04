@@ -38,7 +38,7 @@ public static void  webdriver(){
 	
 	
 	
-
+//Webdriver regular
 	System.setProperty("webdriver.chrome.driver", "inputs//chromedriver.exe");
 	driver = new ChromeDriver();  
     System.out.println("Driver object created");
