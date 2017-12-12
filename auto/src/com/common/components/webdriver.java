@@ -42,7 +42,7 @@ public static void  webdriver(){
 //GIT HUB PUST on   4th Nov
 	System.setProperty("webdriver.chrome.driver", "inputs//chromedriver.exe");
 	driver = new ChromeDriver();  
-    System.out.println("Driver object created");
+    System.out.println("Driver object created yes");
     //Puts an Implicit wait, Will wait for 10 seconds before throwing exception
    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); 
 	//Puts an Implicit wait, Will wait for 10 seconds before throwing exception
